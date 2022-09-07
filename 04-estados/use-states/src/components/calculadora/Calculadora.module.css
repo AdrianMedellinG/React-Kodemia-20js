@@ -1,0 +1,41 @@
+.number{
+    font-size: 24px;
+    color: forestgreen;
+}
+
+.plusButton{
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.restButton{
+    background-color: red;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.plusButton:hover{
+    background-color: rgb(1, 1, 148);
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.restButton:hover{
+    background-color: rgb(163, 1, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.restButton:disabled{
+    background-color: rgba(163, 1, 1, 0.707);
+    color: rgba(255, 255, 255, 0.36);
+    cursor: pointer;
+}
