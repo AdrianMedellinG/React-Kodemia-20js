@@ -1,0 +1,37 @@
+nav{
+    background: rgb(255, 255, 255);
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px auto;
+    min-height: 60px;
+    padding: 0px 1.5rem
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(32, 35, 41);
+
+    li{
+        list-style-type: none;
+        text-decoration: none;
+        list-style-position: outside;
+        list-style-image: none;
+    
+
+        .link-nav{
+            border: none;
+            margin-right: 1.75rem;
+            text-decoration: none;
+           
+            &:hover{
+                color: rgb(255, 152, 0);
+            }
+        }
+    }
+}
